@@ -7,6 +7,13 @@
 .ytIcon:hover {
   color: #ff0000;
 }
+.page-link:hover {
+  font-size: 1.2em;
+  color: #b5f732;
+}
+.page-link {
+  transition: 0.2s;
+}
 
 .nav-socials {
   width: 30%;
@@ -48,6 +55,10 @@ nav li {
 nav li a {
   color: white;
   text-transform: uppercase;
+  transition: 0.1s;
+}
+nav li a:hover {
+  color: #f399f0;
 }
 
 /* Screens Settings */
@@ -58,6 +69,6 @@ nav li a {
   }
 
   nav li a {
-    font-size: 14px;
+    font-size: 0.875em;
   }
 }

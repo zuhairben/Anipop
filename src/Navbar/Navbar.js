@@ -59,7 +59,7 @@ export default function Navbar() {
 
               <li className="nav-item">
                 <a
-                  href="https://www.facebook.com"
+                  href="https://www.youtube.com/@AniPopIBA"
                   className="nav-links"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -73,13 +73,13 @@ export default function Navbar() {
 
           <div className="nav-main">
             <ul className={click ? "nav-menu active" : "nav-menu"}>
-              <li className="nav-item">
+              <li className="nav-item page-link">
                 <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                   Home
                 </Link>
               </li>
 
-              <li className="nav-item">
+              <li className="nav-item page-link">
                 <Link
                   to="/about"
                   className="nav-links"
@@ -89,7 +89,7 @@ export default function Navbar() {
                 </Link>
               </li>
 
-              <li className="nav-item">
+              <li className="nav-item page-link">
                 <Link
                   to="/modules"
                   className="nav-links"
@@ -99,7 +99,7 @@ export default function Navbar() {
                 </Link>
               </li>
 
-              <li className="nav-item">
+              <li className="nav-item page-link">
                 <Link
                   to="/contact"
                   className="nav-links"
