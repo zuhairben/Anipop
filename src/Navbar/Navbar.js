@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 
 export default function Navbar() {
   const [click, setClick] = useState(false);
@@ -10,7 +11,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const navHeight = window.innerHeight - 70;
+      const navHeight = window.innerHeight - 0.1 * window.innerHeight;
       if (window.scrollY > navHeight) {
         setNavFixed(true);
       } else {
@@ -40,7 +41,7 @@ export default function Navbar() {
                   rel="noopener noreferrer"
                   onClick={closeMobileMenu}
                 >
-                  Facebook
+                  <FaFacebookF size={"1.5em"} className={"fbIcon"} />
                 </a>
               </li>
 
@@ -52,7 +53,19 @@ export default function Navbar() {
                   rel="noopener noreferrer"
                   onClick={closeMobileMenu}
                 >
-                  Instagram
+                  <FaInstagram size={"1.5em"} className={"igIcon"} />
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a
+                  href="https://www.facebook.com"
+                  className="nav-links"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={closeMobileMenu}
+                >
+                  <FaYoutube size={"1.5em"} className={"ytIcon"} />
                 </a>
               </li>
             </ul>
@@ -97,6 +110,8 @@ export default function Navbar() {
               </li>
             </ul>
           </div>
+
+          <div className="nav-right"></div>
         </div>
       </nav>
     </>
