@@ -8,4 +8,14 @@
 }
 .img-container {
   align-items: center;
+  background-image: url("media/animibacon.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+}
+button {
+  z-index: 1;
+  height: 10%;
+  width: 10%s;
 }

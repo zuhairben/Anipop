@@ -1,17 +1,10 @@
 import React from "react";
-
-import anim_ibacon from "./media/animibacon.gif";
+import "./TopScreen.css";
 
 export default function TopScreen() {
   return (
     <>
-      <div className="img-container">
-        <img
-          src={anim_ibacon}
-          style={{ height: "90vh", width: "100vw", opacity: "1" }}
-          alt=""
-        />
-      </div>
+      <div className="img-container"></div>
     </>
   );
 }

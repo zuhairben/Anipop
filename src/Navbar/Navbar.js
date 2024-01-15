@@ -35,7 +35,7 @@ export default function Navbar() {
             <ul className="nav-menu">
               <li className="nav-item">
                 <a
-                  href="https://www.facebook.com"
+                  href="https://www.facebook.com/events/1257843534893554"
                   className="nav-links"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -47,7 +47,7 @@ export default function Navbar() {
 
               <li className="nav-item">
                 <a
-                  href="https://www.facebook.com"
+                  href="https://www.instagram.com/iba.con"
                   className="nav-links"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -81,7 +81,7 @@ export default function Navbar() {
 
               <li className="nav-item">
                 <Link
-                  to="about"
+                  to="/about"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
@@ -91,7 +91,7 @@ export default function Navbar() {
 
               <li className="nav-item">
                 <Link
-                  to="modules"
+                  to="/modules"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
@@ -101,7 +101,7 @@ export default function Navbar() {
 
               <li className="nav-item">
                 <Link
-                  to="contact"
+                  to="/contact"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
