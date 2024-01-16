@@ -4,7 +4,9 @@ import "./TopScreen.css";
 export default function TopScreen() {
   return (
     <>
-      <div className="img-container"></div>
+      <div className="img-container">
+         
+      </div>
     </>
   );
 }
