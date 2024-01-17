@@ -10,3 +10,38 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
   }
+
+  
+  .l-container {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px; /* Adjust the margin-bottom to control the space between heading and images */
+  }
+  
+  .b-game-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .b-game-card {
+    margin: 0 10px; /* Adjust the margin to control the space between the cards */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
+  
+  .b-game-card:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+  }
+  
+  .b-game-card__cover img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    max-height: 550px; /* Adjust the max-height to control the default size of the images */
+  }
+  
+  
+  
