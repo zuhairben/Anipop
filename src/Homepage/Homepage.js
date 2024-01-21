@@ -12,7 +12,6 @@ export default function Homepage() {
         <Navbar />
       </section>
       <section id="screen2">
-        <AboutPage/>
       </section>
       <section id="screen3"></section>
     </div>

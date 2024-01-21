@@ -2,12 +2,17 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
+import MegaMenu from "./MegaMenu";
 
 export default function Navbar() {
   const [click, setClick] = useState(false);
-  const closeMobileMenu = () => setClick(false);
+  const closeMobileMenu = () => {
+    setClick(false);
+  }
 
   const [isNavFixed, setNavFixed] = useState(false);
+
+
 
   useEffect(() => {
     const handleScroll = () => {
