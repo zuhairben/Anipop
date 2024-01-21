@@ -24,7 +24,9 @@
 }
 .nav-right {
   width: 30%;
+  text-align: right;
 }
+
 .navbar-container {
   padding: 1.5em;
   box-sizing: border-box;

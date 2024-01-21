@@ -111,7 +111,20 @@ export default function Navbar() {
             </ul>
           </div>
 
-          <div className="nav-right"></div>
+          <div className="nav-right">
+            <ul className="nav-menu">
+              <li className="nav-item page-link">
+                <Link to ="/passes">
+                  Get Passes
+                </Link>
+              </li>
+              <li className="nav-item page-link">
+                <Link to ="/comp">
+                  Competition Sign ups
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </>
